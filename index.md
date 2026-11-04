@@ -1,6 +1,6 @@
 # Macroboi privacy policy
 
-Effective date: 3 November 2026
+Effective date: 4 November 2026
 Policy URL: https://dennisschmid99-code.github.io/macroboi-privacy/
 Contact: dennis.schmid99@gmail.com
 
@@ -10,8 +10,9 @@ Macroboi is a calorie and macro tracker for Android. This policy says what it do
 
 - Your diary, your entries and your progress photos stay on your phone.
 - Macroboi has no accounts, no ads and no analytics.
-- Data leaves your phone in two cases, and both are your choice: the one-time download of the on-device
-  AI model, and Gemini, which is off unless you turn it on and add your own key.
+- Data leaves your phone in three cases, and all are your choice: the one-time download of the on-device
+  AI model, Gemini, which is off unless you turn it on and add your own key, and feedback you send
+  from the "Give feedback" bar.
 
 ## Entries, diary and photos
 
@@ -52,6 +53,20 @@ private storage.
 - Saving a key sends one short test request to Google.
 - With Gemini off, nothing is sent to Google.
 
+## Feedback (alpha version)
+
+While Macroboi is in testing, a bar at the top says "Alpha version · Give feedback". Nothing is sent
+unless you write a message and press Send. Then Macroboi sends, to the developer's Google Form (Google
+Forms, run by Google):
+
+- your message, and your name if you type one (optional);
+- a random id made for this install, so messages from one phone can be grouped. It is not linked to
+  your Google account or your phone number;
+- the app version and your phone's model and Android version.
+
+No diary data, photos or Health Connect records are sent. The developer reads the messages in a Google
+Sheet. To have a message deleted, email the contact address above with roughly when you sent it.
+
 ## Notifications and reminders
 
 If you allow notifications, Macroboi shows supplement reminders at the times you set. The reminders are
@@ -69,7 +84,7 @@ alarms on your phone. Macroboi sets them again after a restart.
 - Microphone: speech entry.
 - Camera: progress photos (optional).
 - Notifications: supplement reminders.
-- Internet: the model download, and Gemini if you turn it on.
+- Internet: the model download, Gemini if you turn it on, and feedback you send.
 - Health Connect (read only, optional): the records listed above.
 - Vibrate: haptic feedback.
 - Network state: checking whether you are online.
@@ -77,7 +92,7 @@ alarms on your phone. Macroboi sets them again after a restart.
 ## No accounts, ads or analytics
 
 Macroboi has no sign-in and no account. It shows no advertising and contains no analytics or crash-reporting
-service.
+service. The feedback bar sends only what you write, when you press Send.
 
 ## Deleting your data
 
